@@ -399,7 +399,7 @@ $(function () {
             $currentFocus;
         currentFocusIndex = 0;
         $checkbox.data("state", key);
-        $label = $("<label for=" + id + ">" + key + "</label>");
+        $label = $("<label for=" + id + "Chk>" + key + "</label>");
         $li.append($checkbox, $label);
         $("#filterList").append($li);
     });
